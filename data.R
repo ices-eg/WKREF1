@@ -1,43 +1,50 @@
-# R script Summary Table FLStocks
+# data.R: Prepare Data and Summary Tables FLStocks
 # @author Henning Winker (JRC) & Massimiliano Cardinale (SLU)
 # @email henning.winker@ec.europa.eu
 # Distributed under the terms of the EUPL-1.2
 
-## Before: data/*.RData
+## Before:
+##  - bootstrap/data/ices.stks.n78.Rdata
 ## After: 
+##   - data/ices.stks.n78.Rdata
+##   - data/wkref1.stock.table.Rdata
+##   - data/ices.ref.Rdata
 
 
-mkdir("data")
-
+library(icesTAF)
 library(FLCore)
 library(FLBRP)
 
-load("bootstrap/data/ices.stks.n78.Rdata", verbose=T)
+cp("bootstrap/data/*", "data")
+
+mkdir("data")
+
+load("data/ices.stks.n78.Rdata", verbose=T)
 
 # --- CREATE stock table
 
 wkref1.stock.table = do.call(rbind,lapply(stks,function(x){
 data.frame(stock=x@name,
-           species=x@species,
-           model = strsplit(x@desc,",")[[1]][2],
-           assessed = strsplit(x@desc,",")[[1]][3],
-           styr = range(x)[["minyear"]],
-           endyr = range(x)[["maxyear"]],
-           amin = range(x)[["min"]],
-           amax = range(x)[["max"]],
-           minfbar = range(x)[["minfbar"]],
-           maxfbar = range(x)[["maxfbar"]],
-           catch.endr = round(an(tail(catch(x))),1),  
-           ssb.endyr = round(an(tail(ssb(x))),1),  
-           fbar.endyr = round(an(tail(fbar(x))),3),  
-           Blim = x@benchmark[["Blim"]],
-           Bpa = x@benchmark[["Bpa"]],
-           Btrigger = x@benchmark[["Btrigger"]],
-           Fmsy =  x@benchmark[["Fmsy"]],
-           Bmsy.eqsim = x@eqsim[["BMSY"]],
-           B0.eqsim = x@eqsim[["B0"]],
-           MSY.eqsim = x@eqsim[["Catchequi"]]
-          )}
+  species=x@species,
+  model = strsplit(x@desc,",")[[1]][2],
+  assessed = strsplit(x@desc,",")[[1]][3],
+  styr = range(x)[["minyear"]],
+  endyr = range(x)[["maxyear"]],
+  amin = range(x)[["min"]],
+  amax = range(x)[["max"]],
+  minfbar = range(x)[["minfbar"]],
+  maxfbar = range(x)[["maxfbar"]],
+  catch.endr = round(an(tail(catch(x))),1),  
+  ssb.endyr = round(an(tail(ssb(x))),1),  
+  fbar.endyr = round(an(tail(fbar(x))),3),  
+  Blim = x@benchmark[["Blim"]],
+  Bpa = x@benchmark[["Bpa"]],
+  Btrigger = x@benchmark[["Btrigger"]],
+  Fmsy =  x@benchmark[["Fmsy"]],
+  Bmsy.eqsim = x@eqsim[["BMSY"]],
+  B0.eqsim = x@eqsim[["B0"]],
+  MSY.eqsim = x@eqsim[["Catchequi"]]
+  )}
 ))
 
 rownames(wkref1.stock.table) = seq(nrow(wkref1.stock.table))
@@ -83,7 +90,6 @@ ices.ref = do.call(rbind,lapply(stks,function(x){
     type = "ices")
 }    
 ))
-
 
 # SAVE
 

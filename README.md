@@ -29,4 +29,16 @@ taf.bootstrap()
 
 This will install packages from source, so [Rtools](https://cran.r-project.org/bin/windows/Rtools/) needs to be installed if run from Windows.
 
+## RUNNING the code
 
+To setup only the data objects, please call
+
+```
+taf.bootstrap(software=FALSE)
+```
+
+To run all the steps, you can call
+
+```
+makeAll()
+```

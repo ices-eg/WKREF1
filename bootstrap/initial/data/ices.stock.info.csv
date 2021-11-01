@@ -1,0 +1,79 @@
+stock,common.name,species,family,order,species.group,wg,model,year,r,resilience
+aru.27.5a14,Greater silver smelt,Argentina silus,Argentinidae,Argentiniformes,Argentine,WGDEEP,Gadgets,2021,0.154,medium
+aru.27.5b6a,Greater silver smelt,Argentina silus,Argentinidae,Argentiniformes,Argentine,WGDEEP,SAM,2021,0.154,medium
+bss.27.4bc7ad-h,Seabass,Dicentrarchus labrax,Moronidae,Perciformes,Seabass,WGCSE,SS3,2021,0.634,high
+bss.27.8ab,Seabass,Dicentrarchus labrax,Moronidae,Perciformes,Seabass,WGBIE,SS3,2021,0.634,high
+cod.21.1,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,NWWG,SAM,2021,0.347,medium
+cod.2127.1f14,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,NWWG,SAM,2021,0.347,medium
+cod.27.1-2,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,AFWG,SAM,2021,0.347,medium
+cod.27.1-2coastN,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,AFWG,SAM,2021,0.347,medium
+cod.27.22-24,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,WGBFAS,SAM,2021,0.347,medium
+cod.27.24-32,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,WGBFAS,SS3,2021,0.347,medium
+cod.27.47d20,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,WGNSSK,SAM,2021,0.347,medium
+cod.27.5a,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,NWWG,SCAA,2021,0.347,medium
+cod.27.5b1,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,NWWG,SAM,2021,0.347,medium
+cod.27.6a,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,WGCSE,SAM,2021,0.347,medium
+cod.27.7e-k,Cod,Gadus morhua,Gadidae,Gadiformes,Gadoids,WGCSE,SAM,2021,0.347,medium
+had.27.1-2,Haddock,Melanogrammus aeglefinus,Gadidae,Gadiformes,Gadoids,AFWG,SAM,2021,0.297,medium
+had.27.46a20,Haddock,Melanogrammus aeglefinus,Gadidae,Gadiformes,Gadoids,WGNSSK,TSA,2021,0.297,medium
+had.27.5a,Haddock,Melanogrammus aeglefinus,Gadidae,Gadiformes,Gadoids,NWWG,SCAA,2021,0.297,medium
+had.27.5b,Haddock,Melanogrammus aeglefinus,Gadidae,Gadiformes,Gadoids,NWWG,SAM,2020,0.297,medium
+had.27.6b,Haddock,Melanogrammus aeglefinus,Gadidae,Gadiformes,Gadoids,WGCSE,XSA,2021,0.297,medium
+had.27.7a,Haddock,Melanogrammus aeglefinus,Gadidae,Gadiformes,Gadoids,WGCSE,ASAP,2021,0.297,medium
+had.27.7b-k,Haddock,Melanogrammus aeglefinus,Gadidae,Gadiformes,Gadoids,WGCSE,SAM,2021,0.297,medium
+her.27.1-24a514a,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,WGWIDE,SAM,2021,0.191,medium
+her.27.20-24,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,HAWG,SAM,2021,0.191,medium
+her.27.25-2932,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,WGBFAS,XSA,2021,0.191,medium
+her.27.28,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,WGBFAS,XSA,2021,0.191,medium
+her.27.3031,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,WGBFAS,SS3,2021,0.191,medium
+her.27.3a47d,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,HAWG,SAM,2021,0.191,medium
+her.27.5a,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,NWWG,NFT-ADAPT,2021,0.191,medium
+her.27.6a7bc,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,HAWG,SAM,2021,0.191,medium
+her.27.irls,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,HAWG,ASAP,2021,0.191,medium
+her.27.nirs,Herring,Clupea harengus,Clupeidae,Clupeiformes,Clupeids,HAWG,SAM,2021,0.191,medium
+hke.27.3a46-8abd,Hake,Merluccius merluccius,Gadidae,Gadiformes,Gadoids,WGBIE,SS3,2021,0.205,medium
+hom.27.2a4a5b6a7a-ce-k8,Horse mackerel,Trachurus trachurus,Carangidae ,Perciformes,Mackrels,WGWIDE,SS3,2021,0.425,high
+hom.27.9a,Horse mackerel,Trachurus trachurus,Carangidae ,Perciformes,Mackrels,WGHANSA,AMISH,2020,0.425,high
+ldb.27.8c9a,Four-spot megrim,Lepidorhombus boscii,Scophthalmidae,Pleuronectiformes,Flatfish,WGBIE,XSA,2021,0.589,high
+lin.27.5a,Ling,Molva molva,Lotidae ,Gadiformes,Gadoids,WGDEEP,Gadgets,2021,0.137,low
+lin.27.5b,Ling,Molva molva,Lotidae ,Gadiformes,Gadoids,WGDEEP,SAM,2021,0.137,low
+mac.27.nea,Mackerel,Scomber scombrus,Scombridae ,Scombriformes,Mackrels,WGWIDE,SAM,2021,0.282,medium
+meg.27.7b-k8abd,Megrim,Lepidorhombus whiffiagonis,Scophthalmidae,Pleuronectiformes,Flatfish,WGBIE,Bayesian,2021,0.45,high
+meg.27.8c9a,Megrim,Lepidorhombus whiffiagonis,Scophthalmidae,Pleuronectiformes,Flatfish,WGBIE,XSA,2021,0.45,high
+mon.27.78abd,White anglerfish,Lophius piscatorius,Lophiidae ,Lophiiformes,Monkfish,WGBIE,a4a,2021,0.605,high
+mon.27.8c9a,White anglerfish,Lophius piscatorius,Lophiidae ,Lophiiformes,Monkfish,WGBIE,SS3,2021,0.605,high
+pil.27.8abd,Sardine,Sardina pilchardus,Clupeidae,Clupeiformes,Clupeids,WGHANSA,SS3,2021,0.473,high
+pil.27.8c9a,Sardine,Sardina pilchardus,Clupeidae,Clupeiformes,Clupeids,WGHANSA,SS3,2021,0.473,high
+ple.27.21-23,Plaice,Pleuronectes platessa,Pleuronectidae,Pleuronectiformes,Flatfish,WGBFAS,SAM,2021,0.249,medium
+ple.27.420,Plaice,Pleuronectes platessa,Pleuronectidae,Pleuronectiformes,Flatfish,WGNSSK,AAP,2021,0.249,medium
+ple.27.7a,Plaice,Pleuronectes platessa,Pleuronectidae,Pleuronectiformes,Flatfish,WGCSE,SAM,2021,0.249,medium
+ple.27.7d,Plaice,Pleuronectes platessa,Pleuronectidae,Pleuronectiformes,Flatfish,WGNSSK,AAP,2021,0.249,medium
+pok.27.1-2,Saithe,Pollachius virens,Gadidae,Gadiformes,Gadoids,AFWG,SAM,2021,0.268,medium
+pok.27.3a46,Saithe,Pollachius virens,Gadidae,Gadiformes,Gadoids,WGNSSK,SAM,2021,0.268,medium
+pok.27.5a,Saithe,Pollachius virens,Gadidae,Gadiformes,Gadoids,NWWG,SCAA,2021,0.268,medium
+pok.27.5b,Saithe,Pollachius virens,Gadidae,Gadiformes,Gadoids,NWWG,SAM,2020,0.268,medium
+pra.27.3a4a,Northern shrimp,Pandalus borealis,Pandalidae,Invert,Shrimps,NIPAG,SS3,2021,NA,high
+reb.27.1-2,Deepwater redfish,Sebastes mentella,Sebastidae,Scorpaeniformes,Redfish,AFWG,SCAA,2021,0.092,low
+reg.27.1-2,Golden redfish,Sebastes norvegicus,Sebastidae,Scorpaeniformes,Redfish,AFWG,Gadgets,2021,0.074,low
+reg.27.561214,Golden redfish,Sebastes norvegicus,Sebastidae,Scorpaeniformes,Redfish,NWWG,Gadgets,2021,0.074,low
+san.sa.1r,Sandeel,Ammodytes marinus,Ammodytidae,Perciformes,Sandeels,HAWG,SMS,2021,0.403,high
+san.sa.2r,Sandeel,Ammodytes marinus,Ammodytidae,Perciformes,Sandeels,HAWG,SMS,2021,0.403,high
+san.sa.3r,Sandeel,Ammodytes marinus,Ammodytidae,Perciformes,Sandeels,HAWG,SMS,2021,0.403,high
+san.sa.4,Sandeel,Ammodytes marinus,Ammodytidae,Perciformes,Sandeels,HAWG,SMS,2021,0.403,high
+sol.27.20-24,Sole,Solea solea,Soleidae ,Pleuronectiformes,Flatfish,WGBFAS,SAM,2021,0.278,medium
+sol.27.4,Sole,Solea solea,Soleidae ,Pleuronectiformes,Flatfish,WGNSSK,AAP,2021,0.278,medium
+sol.27.7a,Sole,Solea solea,Soleidae ,Pleuronectiformes,Flatfish,WGCSE,XSA,2021,0.278,medium
+sol.27.7d,Sole,Solea solea,Soleidae ,Pleuronectiformes,Flatfish,WGNSSK,SAM,2021,0.278,medium
+sol.27.7e,Sole,Solea solea,Soleidae ,Pleuronectiformes,Flatfish,WGCSE,XSA,2021,0.278,medium
+sol.27.7fg,Sole,Solea solea,Soleidae ,Pleuronectiformes,Flatfish,WGCSE,SAM,2021,0.278,medium
+sol.27.8ab,Sole,Solea solea,Soleidae ,Pleuronectiformes,Flatfish,WGBIE,XSA,2021,0.278,medium
+spr.27.22-32,Sprat,Sprattus sprattus,Clupeidae,Clupeiformes,Clupeids,WGBFAS,XSA,2021,0.685,high
+spr.27.3a4,Sprat,Sprattus sprattus,Clupeidae,Clupeiformes,Clupeids,HAWG,SMS,2021,0.685,high
+tur.27.4,Turbot,Scophthalmus maximus,Scophthalmidae,Pleuronectiformes,Flatfish,WGNSSK,SAM,2021,0.6,high
+usk.27.5a14,Tusk,Brosme brosme,Lotidae,Gadiformes,Gadoids,WGDEEP,Gadgets,2021,0.16,medium
+whb.27.1-91214,Blue whiting,Micromesistius poutassou,Gadidae,Gadiformes,Gadoids,WGWIDE,SAM,2021,0.245,medium
+whg.27.47d,Whiting,Merlangius merlangus,Gadidae,Gadiformes,Gadoids,WGNSSK,SAM,2021,0.395,high
+whg.27.6a,Whiting,Merlangius merlangus,Gadidae,Gadiformes,Gadoids,WGCSE,SAM,2021,0.395,high
+whg.27.7a,Whiting,Merlangius merlangus,Gadidae,Gadiformes,Gadoids,WGCSE,ASAP,2021,0.395,high
+whg.27.7b-ce-k,Whiting,Merlangius merlangus,Gadidae,Gadiformes,Gadoids,WGCSE,SAM,2021,0.395,high
+wit.27.3a47d,Witch,Glyptocephalus cynoglossus,Pleuronectidae,Pleuronectiformes,Flatfish,WGNSSK,SAM,2021,0.199,medium
